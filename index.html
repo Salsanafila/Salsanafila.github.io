@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+	<style>
+		
+		* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+header {
+
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background: #8C926B;
+    font-family: sans-serif;
+
+}
+.hlm{
+    width: 100%;
+    height: 100% auto;
+}
+.nav{            
+    padding: 10px;
+    margin-top: -250px;
+    overflow: hidden;
+    margin-right: 200px;
+   
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    float: right;
+    padding: 10px ;
+    font-size:12pt ;
+}
+.nav a:hover{
+    color:skyblue ;
+ 
+}
+.nav-right{
+    float: right;
+}
+.profile {
+
+    display: flex;
+
+} 
+
+.foto {
+
+    width: 20px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top:150px ;
+    margin-left: 270px;
+}
+
+.perkenalan {
+
+margin-top: 140px;
+font-size: 10pt;
+padding-left: 250px;
+}
+.perkenalan h1{
+color: wheat;
+}
+.perkenalan h2{
+color: white;
+}
+.perkenalan h3{
+color: rgb(119, 100, 60);
+}
+
+.ig{
+margin-top:10px ;
+display: flex;
+color: white;
+padding-left: 30px;
+font-size: 12pt;
+
+}
+
+.wa{
+margin-top: 10px;
+display: flex;
+color: wheat;
+padding-left: 30px;
+font-size: 12pt;
+}
+
+
+/*Halaman Biodata dan Hoby*/
+
+section {
+
+display: flex;
+width: 100%;
+height:380px ;
+background: #4E4D36;
+font-family: sans-serif;
+
+}
+
+.hlm2 {
+
+text-align: start;
+padding-left:20px ;
+margin-top: 25px ;
+
+}
+
+.row {
+
+display: flex;
+
+}
+
+.biodata{
+padding-left: 150px;
+margin-top: 25px;
+}
+.biodata h3{
+font-size: 20pt;
+color: orange ;
+padding-top: 20px;
+}
+
+.desk{
+font-size: 13pt;
+margin-top: 30px;
+color: wheat;
+margin-right: 30px;
+}
+
+.hoby {
+padding-left: 150px ;
+margin-top:25px ;
+
+}
+
+.hoby h3{
+color: orange ;
+font-size: 20pt;
+margin-top: 20px;
+}
+.hoby p{
+font-size:10pt ;
+color: white ;
+margin-top: 35px;
+margin-left: 50px;
+}
+.hoby img{
+margin-right:60px ;
+margin-top:20px ;
+width: 200px;
+height: 150px;
+border-radius: 10px;
+}
+.hoby2 p{
+font-size: 10pt ;
+margin-left: 50px;
+color: white ;
+margin-top: 40px;
+}
+.hoby2 img{
+
+margin-top:90px ;
+width:200px ;
+height:150px ;
+margin-right:170px ;
+border-radius: 10px;
+}
+
+/*Halaman Pengalaman*/
+
+.explore{
+width: 100%;
+height:380px ;
+background-color:#8C926B ;
+display: flex;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.hlm3 {
+
+padding-left: 150px;
+margin-top: 30px ;
+color: orange ;
+font-size: 20pt
+
+}
+.foto1 {
+
+padding-left: 70px;
+font-size:13pt ;
+margin-top: 70px;
+color: white;
+font-family: sans-serif;
+font-weight: bold;
+}
+.foto1 img{
+width: 250px;
+height: 120px;
+border-radius: 10px;
+}
+.foto2 {
+
+padding-left: 70px;
+font-size:13pt ;
+margin-top: 70px;
+color: white;
+font-family: sans-serif;
+font-weight: bold;
+}
+.foto2 img{
+width: 250px;
+height: 120px;
+border-radius: 10px;
+}
+.foto3 {
+padding-left: 70px;
+font-size: 13pt;
+margin-top: 70px;
+color: white;
+font-family: sans-serif;
+font-weight: bold;
+}
+.foto3 img{
+width:250px ;
+height: 120px;
+border-radius: 10px;
+}
+/*Halaman Sekolah*/
+.end {
+display: flex;
+width: 100%;
+height:300px ;
+background-color: #4E4D36;
+}
+.hlm4 {
+padding-left: 150px ;
+margin-top: 30px ;
+color: white;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.hlm4 h2{
+font-size: 20pt;
+color: white;
+}
+.list1{
+margin-top: 30px ;
+font-size: 20pt;
+margin-left: 10px;
+}
+.list1 p{
+color:rgb(235, 168, 25)  ;
+font-size: 13pt;
+}
+.list1 a{
+color: gray;
+font-size: 10pt;
+
+}
+.list2{
+margin-top: 30px ;
+font-size: 20pt;
+margin-left: 70px;
+
+}
+.list2 p{
+color:rgb(235, 168, 25) ;
+font-size: 13pt;
+}
+.list2 a{
+color:gray ;
+font-size: 10pt;
+}
+
+
+</style>
+
+</head>
+<body>
+
+<header>
+
+    <div class="hlm">
+        <div class="profile">
+
+            <div class="foto">
+                <img src="WhatsApp Image 2023-12-30 at 13.43.06.jpeg" alt="foto">
+            </div>
+            <div class="perkenalan">
+                <h1>Hallo, Nama Perkenalkan Saya </h1>
+                <h2>Salsa Nafila Rizqi</h2>
+                <h3>Pemograman Perangkat Lunak Dan Gim</h3>
+                <div class="ig">
+                    <img src="" alt="">
+                    <p>@Salsanfla</p>
+                </div>
+                <div class="wa">
+                    <img src="" alt="">
+                    <p>085727233347</p>
+                </div>
+            </div>
+        </div>
+        <div class="nav">
+            <a href="#">Riwayat Pendidikan</a>
+            <a href="#">Pengalaman</a>
+            <a href="#">Tentang Saya</a>
+            <a href="#">Home</a>
+        </div>
+    </div>
+
+</header>
+
+<section>
+
+    <div class="hlm2">
+        <div class="row">
+            <div class="biodata">
+                <h3>Biodata</h3>
+                <div class="desk">
+                    <p>Hallo, nama saya salsa nafila rizqi biasa dipanggil Salsa.
+                         <br>Saya sekolah dismk syafi’i akrom pekalongan. <br>Saya dismk mengambil jurusan Pengembangan <br>Perangkat Lunak dan Gim.</p>
+                </div>
+            </div>
+            <div class="hoby">
+                <h3>Hoby</h3>
+                <img src="travelling.png" alt="">
+                <p>TRAVELLING</p>
+            </div>
+            <div class="hoby2">
+                <img src="membacanovel.png" alt="">
+                <p>MEMBACA NOVEL </p>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="explore">
+
+    <div class="hlm3">
+        <h2>Pengalaman</h2>
+        <div class="row">
+        <div class="foto1">
+            <img src="WhatsApp Image 2024-01-11 at 10.31.13 (1).jpeg" alt="">
+            <p>PK IPNUIPPNU SMKSA</p>
+        </div>
+        <div class="foto2">
+            <img src="WhatsApp Image 2024-01-11 at 10.31.13.jpeg" alt="">
+            <p>PR IPNUIPPNU SOKO </p>
+        </div>
+        <div class="foto3">
+            <img src="WhatsApp Image 2024-01-11 at 10.31.14 (2).jpeg" alt="">
+            <p>POSYANDU</p>
+        </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="end">
+
+    <div class="hlm4">
+        <h2>RIWAYAT PENDIDIKAN</h2>
+        <div class="row">
+        <div class="list1">
+            <p>RA MASYITHOH 15 SOKO</p>
+            <a>Tahun 2011-2013</a>
+            <p>MI SOKO </p>
+            <a>Tahun 2013-2019 </a>
+        </div>
+        <div class="list2">
+            <p>SMP SALAFIYAH PEKALONGAN</p>
+            <a>Tahun 2019-2022</a>
+            <p>SMK SYAFI'I AKROM </p>
+            <a>Tahun 2022-2025 </a>
+        </div>
+        </div>
+    </div>
+
+</section>
+
+</body>
+</html>
